@@ -1,0 +1,20 @@
+@import "reset.css";
+@import "status-bar.css";
+
+.welcome-header{
+    margin-top: 100px;
+    text-align: center;  
+    /* 디스플레이 플랙스를 쓸수도 있지만 텍스트 같여경우는 위의 텍스트 얼라인을 이용하는게 좋을 수 있다. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-header__title{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.welcome-header__text{
+    width: 60%;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
