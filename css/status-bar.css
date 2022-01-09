@@ -13,3 +13,8 @@
 .status-bar__column:nth-child(3){
     justify-content: flex-end;
 }
+
+.status-bar__column:nth-child(1) span,
+.status-bar__column:nth-child(3) span{
+    padding-right: 5px;
+}
