@@ -15,6 +15,7 @@
 }
 
 .status-bar__column:nth-child(1) span,
-.status-bar__column:nth-child(3) span{
-    padding-right: 5px;
+
+.status-bar__column .fa-battery-three-quarters{
+    margin: 0px 5px;
 }

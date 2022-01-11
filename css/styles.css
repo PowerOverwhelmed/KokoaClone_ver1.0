@@ -1,5 +1,7 @@
-@import "reset.css";
-@import "status-bar.css";
 @import "variables.css" ;
+@import "status-bar.css";
+@import "reset.css";
 @import "login.css";
+@import "nav-bar.css"
+
 
