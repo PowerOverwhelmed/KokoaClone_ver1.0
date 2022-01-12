@@ -1,0 +1,29 @@
+.user-profile{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.user-profile__profile{
+    display: flex;   
+}
+.user-profile__user{
+    width: 70px;
+    height: 70px;
+    border-radius: 27px;
+    margin-right: 20px;
+}
+.user-profile__status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.user-profile__name{
+    font-size: 25px;
+    font-weight: 600;
+}
+.user-profile__message{
+    margin-top:5px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.4);
+}
