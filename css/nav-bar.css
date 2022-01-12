@@ -1,18 +1,42 @@
 .nav {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #f9f9fa;
-    padding:20px 60px;
-    box-sizing: border-box;
-    border-top: 1px solid rgba(121, 121, 121, 0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 60px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 
 .nav__list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.nav__link{
-    color: #2e363e;
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+.nav__notification {
+  color: white;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -15px;
+  right: -9px;
+}
+
+.nav__notidot {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: -15px;
+  right: -9px;
 }

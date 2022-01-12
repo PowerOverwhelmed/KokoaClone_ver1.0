@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freins</title>
+    <title>Friends</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -22,6 +22,18 @@
         </div>
     </div>
 
+
+    <header class="screen-header">
+        <h1 class="screen-header__tittle">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+
+    </header>
+
+
     <!-- when you type [nav>ul>li*4>a ] this you will get this 
     usind [tab] key you can fill the components easily-->
     <nav class="nav">
@@ -31,6 +43,7 @@
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="#">
+                    <span class="nav__notification">1</span>
                     <i class="far fa-comment-dots fa-2x"></i>
                 </a>
             </li>
@@ -38,7 +51,10 @@
                 <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+                <a class="nav__link" href="#">
+                    <div class="nav__notidot"></div>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
             </li>
         </ul>
     </nav>
