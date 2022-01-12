@@ -6,4 +6,6 @@
 @import "screen-header.css";
 @import "friends.css" ;
 @import "user-profile.css" ;
-@import "channel.css"
+@import "channel.css";
+@import "chats.css";
+@import "badge.css"

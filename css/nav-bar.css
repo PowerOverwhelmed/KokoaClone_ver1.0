@@ -18,20 +18,14 @@
   position: relative;
 }
 .nav__notification {
-  color: white;
-  background-color: tomato;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   position: absolute;
   top: -15px;
   right: -9px;
 }
 
 .nav__notidot {
+  
   background-color: tomato;
   width: 10px;
   height: 10px;
