@@ -1,7 +1,6 @@
 .user-profile{
     display: flex;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin: 10px var(--space-right);
 }
 .user-profile__profile{
     display: flex;   
