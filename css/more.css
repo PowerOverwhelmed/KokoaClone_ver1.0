@@ -1,0 +1,50 @@
+.user-profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-profile__status-left {
+  display: flex;
+}
+
+.user-profile__status-left img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+}
+
+.user-profile__status-left__status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.user-profile__status-left__status-name {
+  margin: 5px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-profile__status-left__status-message {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-profile__status-left__status-message i {
+  color: tomato;
+  margin: 0px 5px;
+}
+
+.user-profile__status-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile__status-right i {
+  font-size: 30px;
+}
