@@ -71,6 +71,9 @@
 }
 
 .open-chat__contents-image-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   opacity: 0.8;
   border-radius: 10px;
   margin: 10px 0;
