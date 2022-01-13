@@ -4,8 +4,10 @@
 @import "login.css";
 @import "nav-bar.css";
 @import "screen-header.css";
-@import "friends.css" ;
-@import "user-profile.css" ;
+@import "friends.css";
+@import "user-profile.css";
 @import "channel.css";
 @import "chats.css";
-@import "badge.css"
+@import "badge.css";
+@import "reddot.css";
+@import "search.css";

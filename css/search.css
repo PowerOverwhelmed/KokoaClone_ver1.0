@@ -1,0 +1,38 @@
+@import "find__recommended-friends.css";
+@import "find__open-chat.css";
+.find-screen {
+  margin: 0px var(--space-right);
+}
+
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 15px 0px;
+  margin-top: 10px;
+}
+
+.find-icons__icons {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.find-icons__icons div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.find-icons__icons span {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+.find-icons__icons:nth-child(2) span {
+  margin: 0px;
+}

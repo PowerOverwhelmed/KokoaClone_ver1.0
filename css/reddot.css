@@ -1,0 +1,13 @@
+.reddot {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.position-re {
+  position: relative;
+}
