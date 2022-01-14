@@ -1,0 +1,71 @@
+.settings-screen {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 25px 80px;
+}
+
+.settings-screen__header {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.settings-screen__header__column {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.settings-screen__header__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 30px;
+}
+
+.settings-screen__header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.settings-screen__version-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-screen__version-info__column {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.settings-screen__version-info__column-left {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.settings-screen__version-info__column-right {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.settings-screen__version-info__column-icon {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 25px;
+}
+
+.horizental-divide {
+  margin: 30px -25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}

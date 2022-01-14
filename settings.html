@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <div class="settings-screen">
+      <div class="settings-screen__header">
+        <div class="settings-screen__header__column">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="settings-screen__header__column"><span>Settings</span></div>
+        <div class="settings-screen__header__column">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+
+      <div class="settings-screen__version-info">
+        <div class="settings-screen__version-info__column">
+          <div class="settings-screen__version-info__column-left">
+            <i class="settings-screen__version-info__column-icon"></i>
+            <span class="#">Notice</span>
+          </div>
+          <div class="settings-screen__version-info__column-right">
+            <!-- <span></span> -->
+          </div>
+        </div>
+        <div class="settings-screen__version-info__column">
+          <div class="settings-screen__version-info__column-left">
+            <i class="settings-screen__version-info__column-icon"></i>
+            <span>Kakao Lab</span>
+          </div>
+          <div class="settings-screen__version-info__column-right">
+            <!-- <span></span> -->
+          </div>
+        </div>
+        <div class="settings-screen__version-info__column">
+          <div class="settings-screen__version-info__column-left">
+            <i class="settings-screen__version-info__column-icon"></i>
+            <span>Vsersion</span>
+          </div>
+          <div class="settings-screen__version-info__column-right">
+            <span>Latest Version</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="horizental-divide"></div>
+
+      <div class="settings-screen__secure"></div>
+    </div>
+    <!-- when you type [nav>ul>li*4>a ] this you will get this 
+    usind [tab] key you can fill the components easily-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">4</span>
+            <i class="far fa-comment-dots fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html">
+            <!-- This should be changed -->
+            <i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__notidot"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/c993299b9a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
