@@ -48,3 +48,35 @@
 .user-profile__status-right i {
   font-size: 30px;
 }
+
+.more-screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px var(--space-right);
+}
+
+.more-items__item {
+  margin: 20px 0px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.more-items__item:nth-child(2) {
+  position: relative;
+}
+
+.more-items__item > i {
+  font-size: 40px;
+}
+
+.more-items__item > span {
+  margin-top: 10px;
+}
